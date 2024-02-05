@@ -1,4 +1,4 @@
-package com.ortega.sgoma.controllers;
+package com.ortega.sgoma;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
