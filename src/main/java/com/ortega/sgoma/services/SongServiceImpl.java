@@ -1,6 +1,9 @@
 package com.ortega.sgoma.services;
 
 
+import com.ortega.sgoma.models.Song;
+import com.ortega.sgoma.repository.SongRepository;
+import com.ortega.sgoma.utils.UploadUtil;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +13,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
+import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.UUID;
 
 
